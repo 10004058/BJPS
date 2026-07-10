@@ -19,14 +19,14 @@ The analysis pipeline consists of the following steps:
 
 ```text
 BJPS/
-├── CSV/            # Corpora and sentence subsets
-├── Data/           # Supplementary datasets
-├── Embeddings/     # Sentence embeddings
-├── JSON/           # LLM outputs
-├── KG/             # KG
-├── Prompts/        # Prompt notebooks
-├── PythonScripts/  # Data extraction and KG generation
-└── RScripts/       # Corpus and subsets creation, explicit definition extraction, collocation, categorization, and embeddings analyses 
+├── CSV/                  # Corpora and sentence subsets
+├── Embeddings/           # Sentence embeddings
+├── JSON/                 # LLM outputs
+├── KG/                   # KG
+├── Prompts/              # Prompt notebooks
+├── Python/               # Data extraction and KG generation
+├── R/                    # Corpus and subsets creation, explicit definition extraction, collocation, categorization, and embeddings analyses
+└── Supplementary Data/   # Supplementary material
 ```
 
 ## Data
