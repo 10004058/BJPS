@@ -16,6 +16,17 @@ The 3000-sentences subset
 **Subset500.csv**<br>
 The 500-sentences subset
 
+## Data
+
+**article_counts.xlsx**<br>
+Various statistics on the corpus for ancestry, race and ethnicity
+
+**corpus_categorization.xlsx**<br>
+The reformatted output of the categorization task for the consensus run
+
+**explicit_definitions.txt**<br>
+Various statistics on the corpus for ancestry, race and ethnicity
+
 ## Embeddings
 
 **\*_embeddings.csv**<br>
