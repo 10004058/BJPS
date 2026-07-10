@@ -7,7 +7,8 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 ## CSV
 
-**Corpus_subset\*.csv**: the corpus of 17469 sentences, split into 6 subsets
+**Corpus_subset\*.csv**
+The corpus of 17469 sentences, split into 6 subsets
 
 **Subset3000.csv**: the 3000-sentences subset
 
