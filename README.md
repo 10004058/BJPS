@@ -9,23 +9,22 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 BJPS/
 │
 ├── CSV/
-│   ├── Corpus.csv
 │   ├── Corpus_subset*.csv
 │   ├── Subset3000.csv
 │   └── Subset500.csv
-│
-├── Data/
-│   ├── article_counts.xlsx
-│   ├── corpus_categorization.xlsx
-│   └── explicit_definitions.txt
 │
 ├── Embeddings/
 │   ├── embeddings_*.csv
 │   └── split_embeddings_corpus.R
 │
 ├── JSON/
-│   ├── CategoriesIdentificationOutput/
-│   └── CategorizationOutput/
+│   ├── CategoriesIdentification/
+|       ├── From404KG/
+|           └── Run*.json
+|       └── From2474KG/
+|           └── Subset*_Run*.json
+│   └── Categorization/
+|       └── Run*_*.json
 │
 ├── KG/
 │   └── Knowledge graph outputs
