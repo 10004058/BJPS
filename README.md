@@ -9,37 +9,45 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 Contains:
 
-- **Corpus_subset\*.csv**: the corpus of 17469 sentences, split into 6 subsets
-- **Subset3000.csv**: the 3000-sentences subset
-- **Subset500.csv**: the 500-sentences subset
+**Corpus_subset\*.csv**: the corpus of 17469 sentences, split into 6 subsets
+
+**Subset3000.csv**: the 3000-sentences subset
+
+**Subset500.csv**: the 500-sentences subset
 
 ## Embeddings
 
-- **\*_embeddings.csv**: the embeddings for the validated sentences, split by category
+**\*_embeddings.csv**: the embeddings for the validated sentences, split by category
 
 ## JSON
 
-- **Subset\*_Run\*.json**: the outputs of the category identification analysis based on 2474 KG
-- **Run\*.json**: the outputs of the category identification analysis based on 404 KG
-- **Run\*_*.json**: the corpus categorization outputs
+**Subset\*_Run\*.json**: the outputs of the category identification analysis based on 2474 KG
+
+**Run\*.json**: the outputs of the category identification analysis based on 404 KG
+
+**Run\*_*.json**: the corpus categorization outputs
 
 ## KG
 
-- **\*KG.txt**: the cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
+**\*KG.txt**: the cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
 
 ## Prompts
 
 Contains:
 
-- **CategoriesIdentificationPrompt.ipynb**: the prompt used to identify definitional categories
-- **CategorizationPrompt.ipynb**: the prompt used to categorize a set of sentences
-- **EmbeddingsPrompt.ipynb**: the prompt used to obtain the embeddings from a set of sentences
+**CategoriesIdentificationPrompt.ipynb**: the prompt used to identify definitional categories
+
+**CategorizationPrompt.ipynb**: the prompt used to categorize a set of sentences
+
+**EmbeddingsPrompt.ipynb**: the prompt used to obtain the embeddings from a set of sentences
 
 ## Prompts
 
-- **extract_sentences.py**: the script used to extract the sentences from the PDF
-- **kg_generation.py**: the script used to obtain the KG
-- **plos_download_pdf**: the script used to download the PDF
+**extract_sentences.py**: the script used to extract the sentences from the PDF
+
+**kg_generation.py**: the script used to obtain the KG
+
+**plos_download_pdf**: the script used to download the PDF
 
 ## R
 
