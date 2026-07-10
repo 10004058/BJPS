@@ -1,8 +1,6 @@
 # BJPS
 This repository contains input and output data for a large-scale concept analysis of ANCESTRY in scientific literature. The workflow combines corpus creation, collocation analysis, KG extraction, and LLM–based categorization to analyze 17,469 sentences extracted from 1,373 articles published in PLoS Genetics and PLoS Biology (2003–2025).
 
-The repository includes CSV datasets, prompts, Python and R scripts, KG, embeddings, and JSON outputs. 
-
 # Data
 
 ## CSV
