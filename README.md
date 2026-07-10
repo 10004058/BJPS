@@ -10,64 +10,87 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 **Corpus_subset\*.csv**<br>
 The corpus of 17469 sentences, split into 6 subsets
 
-**Subset3000.csv**: the 3000-sentences subset
+**Subset3000.csv**<br>
+The 3000-sentences subset
 
-**Subset500.csv**: the 500-sentences subset
+**Subset500.csv**<br>
+The 500-sentences subset
 
 ## Embeddings
 
-**\*_embeddings.csv**: the embeddings for the validated sentences, split by category
+**\*_embeddings.csv**<br>
+The embeddings for the validated sentences, split by category
 
 ## JSON
 
-**Subset\*_Run\*.json**: the outputs of the category identification analysis based on 2474 KG
+**Subset\*_Run\*.json**<br>
+The outputs of the category identification analysis based on 2474 KG
 
-**Run\*.json**: the outputs of the category identification analysis based on 404 KG
+**Run\*.json**<br>
+The outputs of the category identification analysis based on 404 KG
 
-**Run\*_*.json**: the corpus categorization outputs
+**Run\*_*.json**<br>
+The corpus categorization outputs
 
 ## KG
 
-**\*KG.txt**: the cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
+**\*KG.txt**<br>
+The cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
 
 ## Prompts
 
-**CategoriesIdentificationPrompt.ipynb**: the prompt used to identify definitional categories
+**CategoriesIdentificationPrompt.ipynb**<br>
+The prompt used to identify definitional categories
 
-**CategorizationPrompt.ipynb**: the prompt used to categorize a set of sentences
+**CategorizationPrompt.ipynb**<br>
+The prompt used to categorize a set of sentences
 
-**EmbeddingsPrompt.ipynb**: the prompt used to obtain the embeddings from a set of sentences
+**EmbeddingsPrompt.ipynb**<br>
+The prompt used to obtain the embeddings from a set of sentences
 
 ## Prompts
 
-**extract_sentences.py**: the script used to extract the sentences from the PDF
+**extract_sentences.py**<br>
+The script used to extract the sentences from the PDF
 
-**kg_generation.py**: the script used to obtain the KG
+**kg_generation.py**<br>
+The script used to obtain the KG
 
-**plos_download_pdf**: the script used to download the PDF
+**plos_download_pdf**<br>
+The script used to download the PDF
 
 ## R
 
-**KG.R**: the script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
+**KG.R**<br>
+The script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
 
-**categorization_analysis.R**: the script used to retrieve the categorization outputs and analyse then
+**categorization_analysis.R**<br>
+The script used to retrieve the categorization outputs and analyse then
 
-**centroids_from_all_sentences.R**: the script used to compute the centroids from the embeddings of all sentences, create the category subsets and compare them to the centroids
+**centroids_from_all_sentences.R**<br>
+The script used to compute the centroids from the embeddings of all sentences, create the category subsets and compare them to the centroids
 
-**centroids_from_validated_sentences.R**: the script used to compute the centroids from the embeddings of validated sentences, create the category subsets and compare them to 
+**centroids_from_validated_sentences.R**<br>
+The script used to compute the centroids from the embeddings of validated sentences, create the category subsets and compare them to 
 the centroids
 
-**collocations.R**: the script used to compute the collocations found in the corpus
+**collocations.R**<br>
+The script used to compute the collocations found in the corpus
 
-**explicit_definitions.R**: the script used to look for explicit definition in the corpus
+**explicit_definitions.R**<br>
+The script used to look for explicit definition in the corpus
 
-**filter_sentences.R**: the script used to load the CSV with all the sentences and filter them to retain only those containing ancest-
+**filter_sentences.R**<br>
+The script used to load the CSV with all the sentences and filter them to retain only those containing ancest-
 
-**permanova.R**: the script used to perform the PERMANOVA using the embeddings
+**permanova.R**<br>
+The script used to perform the PERMANOVA using the embeddings
 
-**statistical_testing_from_all_sentences**: the script used to test for statistical significance in the cosine similarities between a category subset and the competing 
+**statistical_testing_from_all_sentences**<br>
+The script used to test for statistical significance in the cosine similarities between a category subset and the competing 
 centroids (computed from all sentences)
 
-**statistical_testing_from_validated_sentences**: the script used to test for statistical significance in the cosine similarities between a category subset and the competing 
+**statistical_testing_from_validated_sentences**<br>
+The script used to test for statistical significance in the cosine similarities between a category subset and the competing 
 centroids (computed from validated sentences)
 
