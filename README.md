@@ -1,105 +1,130 @@
 # BJPS
-This repository contains input and output data for a large-scale concept analysis of ANCESTRY in scientific literature. The workflow combines corpus creation, collocation analysis, KG extraction, and LLM–based categorization to analyze 17,469 sentences extracted from 1,373 articles published in PLoS Genetics and PLoS Biology (2003–2025).
+
+This repository contains the datasets, prompts, scripts, and outputs used to perform a large-scale concept analysis of **ANCESTRY** in the genomics literature. The analysis combines corpus creation, collocation analysis, knowledge graph (KG) extraction, Large Language Model (LLM)-based semantic categorization, embedding analysis, and statistical testing on a corpus of **17,469 sentences** extracted from **1,373** articles published in *PLoS Genetics* and *PLoS Biology* (2003–2025).
+
+## Workflow
+
+The analysis pipeline consists of the following steps:
+
+1. Download the article corpus
+2. Extract sentences containing the root *ancestr-*
+3. Search for explicit definitions and compute collocations
+4. Generate KG from representative sentence subsets
+5. Identify definitional categories using an LLM
+6. Categorize the corpus
+7. Generate sentence embeddings
+8. Perform statistical analyses
+
+## Repository Structure
+
+```text
+BJPS/
+├── CSV/            # Corpora and sentence subsets
+├── Data/           # Supplementary datasets
+├── Embeddings/     # Sentence embeddings
+├── JSON/           # LLM outputs
+├── KG/             # Knowledge graphs
+├── Prompts/        # Prompt notebooks
+├── PythonScripts/  # Data extraction and KG generation
+└── RScripts/       # Various dataset manipulation and analyses 
+```
 
 ## Data
 
 ### CSV
 
 **Corpus_subset\*.csv**<br>
-The corpus of 17469 sentences, split into 6 subsets
+Complete corpus (17,469 sentences), split into 6 subsets.
 
 **Subset3000.csv**<br>
-The 3000-sentences subset
+Random subset of 3000 sentences used for knowledge graph extraction and categories identification.
 
 **Subset500.csv**<br>
-The 500-sentences subset
+Random subset of 500 sentences used for knowledge graph extraction and categories identification.
 
 ### Data
 
 **article_counts.xlsx**<br>
-Various statistics on the corpus for ancestry, race and ethnicity
+Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
 
 **corpus_categorization.xlsx**<br>
-The reformatted output of the categorization task for the consensus run
+Reformatted output of the categorization task for the consensus run.
 
 **explicit_definitions.txt**<br>
-Various statistics on the corpus for ancestry, race and ethnicity
+Explicit definitions of ANCESTRY identified in the corpus.
 
 ### Embeddings
 
 **\*_embeddings.csv**<br>
-The embeddings for the validated sentences, split by category
+The embeddings for the validated sentences, split by category.
 
 ### JSON
 
 **Subset\*_Run\*.json**<br>
-The outputs of the category identification analysis based on 2474 KG
+Category identification outputs (3 runs) generated from the 2,474 KG containing *ancest-*.
 
 **Run\*.json**<br>
-The outputs of the category identification analysis based on 404 KG
+Category identification outputs (3runs) generated from the 404 KG containing *ancest-*.
 
 **Run\*_*.json**<br>
-The corpus categorization outputs
+LLM categorization outputs (3 runs) for the complete corpus, split into 6 subsets.
 
 ### KG
 
 **\*KG.txt**<br>
-The cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
+Cleaned and filtered KG generated from the 500- and 3,000-sentence subsets.
 
 ### Prompts
 
 **CategoriesIdentificationPrompt.ipynb**<br>
-The prompt used to identify definitional categories
+Identifies definitional categories from the KG.
 
 **CategorizationPrompt.ipynb**<br>
-The prompt used to categorize a set of sentences
+Categorizes sentences into the identified definitional categories.
 
 **EmbeddingsPrompt.ipynb**<br>
-The prompt used to obtain the embeddings from a set of sentences
+Generates sentence embeddings.
 
 ### Python scripts
 
 **extract_sentences.py**<br>
-The script used to extract the sentences from the PDF
+Extracts sentences from downloaded PDFs.
 
 **kg_generation.py**<br>
-The script used to obtain the KG
+Generates knowledge graphs from sentence subsets.
 
 **plos_download_pdf**<br>
-The script used to download the PDF
+Downloads articles from the *PLoS Biology* and *PLoS Genetics*.
 
 ### R scripts
 
 **KG.R**<br>
-The script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
+Creates the 500- and 3,000-sentence subsets, cleans and analyses the resulting knowledge graphs.
 
 **categorization_analysis.R**<br>
-The script used to retrieve the categorization outputs and analyse then
+Retrieves and analyses the LLM categorization outputs.
 
 **centroids_from_all_sentences.R**<br>
-The script used to compute the centroids from the embeddings of all sentences, create the category subsets and compare them to the centroids
+Computes embedding centroids from all sentences and compares category subsets with each centroid.
 
 **centroids_from_validated_sentences.R**<br>
-The script used to compute the centroids from the embeddings of validated sentences, create the category subsets and compare them to 
-the centroids
+Computes embedding centroids from the manually validated sentences and compares category subsets with each centroid.
 
 **collocations.R**<br>
-The script used to compute the collocations found in the corpus
+Computes collocations for occurrences of *ancestr-* within the corpus.
 
 **explicit_definitions.R**<br>
-The script used to look for explicit definition in the corpus
+Identifies explicit explicit definitions of ANCESTRY in the corpus.
 
 **filter_sentences.R**<br>
-The script used to load the CSV with all the sentences and filter them to retain only those containing ancest-
+Loads the CSV with all sentences and filters them to retain only those containing *ancestr-*.
 
 **permanova.R**<br>
-The script used to perform the PERMANOVA using the embeddings
+Performs a PERMANOVA on the sentence embeddings.
 
 **statistical_testing_from_all_sentences**<br>
-The script used to test for statistical significance in the cosine similarities between a category subset and the competing 
-centroids (computed from all sentences)
+Performs statistical tests on cosine similarities using centroids computed from all sentences.
 
 **statistical_testing_from_validated_sentences**<br>
-The script used to test for statistical significance in the cosine similarities between a category subset and the competing 
-centroids (computed from validated sentences)
+Performs statistical tests on cosine similarities using centroids computed from the validated sentence.
 
