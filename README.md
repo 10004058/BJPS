@@ -9,13 +9,13 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 Contains:
 
-- **Corpus_subset*.csv**: the corpus of 17469 sentences, split into 6 subsets
-- The 3000-sentences subset
-- The 500-sentences subset
+- **Corpus_subset\*.csv**: the corpus of 17469 sentences, split into 6 subsets
+- **Subset3000.csv**: the 3000-sentences subset
+- **Subset500.csv**: the 500-sentences subset
 
 ## Embeddings
 
-Contains the embeddings for the validated sentences, split by category. 
+- **\*_embeddings.csv**: the embeddings for the validated sentences, split by category
 
 ## JSON
 
