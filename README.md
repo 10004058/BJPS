@@ -42,17 +42,6 @@ Random subset of 3000 sentences used for knowledge graph extraction and categori
 **Subset500.csv**<br>
 Random subset of 500 sentences used for knowledge graph extraction and categories identification.
 
-### Data
-
-**article_counts.xlsx**<br>
-Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
-
-**corpus_categorization.xlsx**<br>
-Reformatted output of the categorization task for the consensus run.
-
-**explicit_definitions.txt**<br>
-Explicit definitions of ANCESTRY identified in the corpus.
-
 ### Embeddings
 
 **\*_embeddings.csv**<br>
@@ -127,4 +116,15 @@ Performs statistical tests on cosine similarities using centroids computed from 
 
 **statistical_testing_from_validated_sentences**<br>
 Performs statistical tests on cosine similarities using centroids computed from the validated sentence.
+
+### Supplementary Data
+
+**article_counts.xlsx**<br>
+Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
+
+**corpus_categorization.xlsx**<br>
+Reformatted output of the categorization task for the consensus run.
+
+**explicit_definitions.txt**<br>
+Explicit definitions of ANCESTRY identified in the corpus.
 
