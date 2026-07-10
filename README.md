@@ -19,15 +19,13 @@ Contains:
 
 ## JSON
 
-Stores JSON outputs generated during:
-
 - **Subset\*_Run\*.json**: the outputs of the category identification analysis based on 2474 KG
 - **Run\*.json**: the outputs of the category identification analysis based on 404 KG
 - **Run\*_*.json**: the corpus categorization outputs
 
 ## KG
 
-Contains the cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
+- **\*KG.txt**: the cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
 
 ## Prompts
 
