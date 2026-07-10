@@ -21,8 +21,9 @@ Contains:
 
 Stores JSON outputs generated during:
 
-- The category identification analysis (from 404 and 2474 KG)
-- The corpus categorization 
+- **Subset\*_Run\*.json**: the outputs of the category identification analysis based on 2474 KG
+- **Run\*.json**: the outputs of the category identification analysis based on 404 KG
+- **Run\*_*.json**: the corpus categorization outputs
 
 ## KG
 
