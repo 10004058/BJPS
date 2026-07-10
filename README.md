@@ -3,6 +3,44 @@ This repository contains the data and analysis pipeline used to perform a large-
 
 The repository includes the datasets, prompts, Python and R scripts, KG, embeddings, and JSON outputs. 
 
+# Repository Structure
+
+BJPS/
+│
+├── CSV/
+│   ├── Corpus.csv
+│   ├── Corpus_subset*.csv
+│   ├── Subset3000.csv
+│   └── Subset500.csv
+│
+├── Data/
+│   ├── article_counts.xlsx
+│   ├── corpus_categorization.xlsx
+│   └── explicit_definitions.txt
+│
+├── Embeddings/
+│   ├── embeddings_*.csv
+│   └── split_embeddings_corpus.R
+│
+├── JSON/
+│   ├── CategoriesIdentificationOutput/
+│   └── CategorizationOutput/
+│
+├── KG/
+│   └── Knowledge graph outputs
+│
+├── Prompts/
+│   └── Prompt templates used for LLM inference
+│
+├── PythonScripts/
+│   ├── extract_sentences.py
+│   ├── kg-generation.py
+│   └── plos_download_pdf.py
+│
+└── RScripts/
+    ├── Analysis scripts
+    └── Visualization scripts
+
 # Data
 
 ## CSV
