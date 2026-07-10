@@ -9,7 +9,7 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 Contains:
 
-- The corpus of 17469 sentences, split into 6 subsets
+- **Corpus_subset***: the corpus of 17469 sentences, split into 6 subsets
 - The 3000-sentences subset
 - The 500-sentences subset
 
