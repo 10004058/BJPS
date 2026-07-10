@@ -23,10 +23,10 @@ BJPS/
 ├── Data/           # Supplementary datasets
 ├── Embeddings/     # Sentence embeddings
 ├── JSON/           # LLM outputs
-├── KG/             # Knowledge graphs
+├── KG/             # KG
 ├── Prompts/        # Prompt notebooks
 ├── PythonScripts/  # Data extraction and KG generation
-└── RScripts/       # Various dataset manipulation and analyses 
+└── RScripts/       # Corpus and subsets creation, explicit definition extraction, collocation, categorization, and embeddings analyses 
 ```
 
 ## Data
