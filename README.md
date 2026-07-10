@@ -7,8 +7,6 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 ## CSV
 
-Contains:
-
 **Corpus_subset\*.csv**: the corpus of 17469 sentences, split into 6 subsets
 
 **Subset3000.csv**: the 3000-sentences subset
@@ -33,8 +31,6 @@ Contains:
 
 ## Prompts
 
-Contains:
-
 **CategoriesIdentificationPrompt.ipynb**: the prompt used to identify definitional categories
 
 **CategorizationPrompt.ipynb**: the prompt used to categorize a set of sentences
@@ -50,8 +46,6 @@ Contains:
 **plos_download_pdf**: the script used to download the PDF
 
 ## R
-
-Contains: 
 
 **KG.R**: the script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
 
