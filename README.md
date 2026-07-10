@@ -1,9 +1,9 @@
 # BJPS
 This repository contains input and output data for a large-scale concept analysis of ANCESTRY in scientific literature. The workflow combines corpus creation, collocation analysis, KG extraction, and LLM–based categorization to analyze 17,469 sentences extracted from 1,373 articles published in PLoS Genetics and PLoS Biology (2003–2025).
 
-# Data
+## Data
 
-## CSV
+### CSV
 
 **Corpus_subset\*.csv**<br>
 The corpus of 17469 sentences, split into 6 subsets
@@ -14,7 +14,7 @@ The 3000-sentences subset
 **Subset500.csv**<br>
 The 500-sentences subset
 
-## Data
+### Data
 
 **article_counts.xlsx**<br>
 Various statistics on the corpus for ancestry, race and ethnicity
@@ -25,12 +25,12 @@ The reformatted output of the categorization task for the consensus run
 **explicit_definitions.txt**<br>
 Various statistics on the corpus for ancestry, race and ethnicity
 
-## Embeddings
+### Embeddings
 
 **\*_embeddings.csv**<br>
 The embeddings for the validated sentences, split by category
 
-## JSON
+### JSON
 
 **Subset\*_Run\*.json**<br>
 The outputs of the category identification analysis based on 2474 KG
@@ -41,12 +41,12 @@ The outputs of the category identification analysis based on 404 KG
 **Run\*_*.json**<br>
 The corpus categorization outputs
 
-## KG
+### KG
 
 **\*KG.txt**<br>
 The cleaned and filtered KG, based on 500 and 3000 sentences (cf. CSV).
 
-## Prompts
+### Prompts
 
 **CategoriesIdentificationPrompt.ipynb**<br>
 The prompt used to identify definitional categories
@@ -57,7 +57,7 @@ The prompt used to categorize a set of sentences
 **EmbeddingsPrompt.ipynb**<br>
 The prompt used to obtain the embeddings from a set of sentences
 
-## Prompts
+### Python scripts
 
 **extract_sentences.py**<br>
 The script used to extract the sentences from the PDF
@@ -68,7 +68,7 @@ The script used to obtain the KG
 **plos_download_pdf**<br>
 The script used to download the PDF
 
-## R
+### R scripts
 
 **KG.R**<br>
 The script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
