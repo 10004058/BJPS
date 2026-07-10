@@ -31,30 +31,28 @@ Contains:
 
 Contains:
 
-- The Categories identification prompt
-- The Categorization prompt
-- The Embeddings prompt
+- **CategoriesIdentificationPrompt.ipynb**: the prompt used to identify definitional categories
+- **CategorizationPrompt.ipynb**: the prompt used to categorize a set of sentences
+- **EmbeddingsPrompt.ipynb**: the prompt used to obtain the embeddings from a set of sentences
 
 ## Prompts
 
-Contains:
-
-- extract_sentences.py: the script used to extract the sentences from the PDF
-- kg_generation.py: the script used to obtain the KG
-- plos_download_pdf: the script used to download the PDF
+- **extract_sentences.py**: the script used to extract the sentences from the PDF
+- **kg_generation.py**: the script used to obtain the KG
+- **plos_download_pdf**: the script used to download the PDF
 
 ## R
 
 Contains: 
 
-- KG.R: the script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
-- categorization_analysis.R: the script used to retrieve the categorization outputs and analyse then
-- centroids_from_all_sentences.R: the script used to compute the centroids from the embeddings of all sentences, create the category subsets and compare these subsets to the centroids
-- centroids_from_validated_sentences.R: the script used to compute the centroids from the embeddings of validated sentences, create the category subsets and compare these subsets to the centroids
-- collocations.R: the script used to compute the collocations found in the corpus
-- explicit_definitions.R: the script used to look for explicit definition in the corpus
-- filter_sentences.R: the script used to load the CSV with all the sentences and filter them to retain only those containing ancest-
-- permanova.R: the script used to perform the PERMANOVA using the embeddings
-- statistical_testing_from_all_sentences: the script used to test for statistical significance in the cosine similarities between a category subset and the competing centroids (computed from all sentences)
-- statistical_testing_from_validated_sentences: the script used to test for statistical significance in the cosine similarities between a category subset and the competing centroids (computed from validated sentences)
+- **KG.R**: the script used to create the 500- and 3000-sentences subsets and analyse the KG extracted from these subsets
+- **categorization_analysis.R**: the script used to retrieve the categorization outputs and analyse then
+- **centroids_from_all_sentences.R**: the script used to compute the centroids from the embeddings of all sentences, create the category subsets and compare them to the centroids
+- **centroids_from_validated_sentences.R**: the script used to compute the centroids from the embeddings of validated sentences, create the category subsets and compare them to the centroids
+- **collocations.R**: the script used to compute the collocations found in the corpus
+- **explicit_definitions.R**: the script used to look for explicit definition in the corpus
+- **filter_sentences.R**: the script used to load the CSV with all the sentences and filter them to retain only those containing ancest-
+- **permanova.R**: the script used to perform the PERMANOVA using the embeddings
+- **statistical_testing_from_all_sentences**: the script used to test for statistical significance in the cosine similarities between a category subset and the competing centroids (computed from all sentences)
+- **statistical_testing_from_validated_sentences**: the script used to test for statistical significance in the cosine similarities between a category subset and the competing centroids (computed from validated sentences)
 
