@@ -5,6 +5,7 @@ The repository includes the datasets, prompts, Python and R scripts, KG, embeddi
 
 # Repository Structure
 
+```text
 BJPS/
 │
 ├── CSV/
@@ -40,6 +41,7 @@ BJPS/
 └── RScripts/
     ├── Analysis scripts
     └── Visualization scripts
+```
 
 # Data
 
