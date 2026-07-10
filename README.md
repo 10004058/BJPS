@@ -3,28 +3,24 @@ This repository contains the data and analysis pipeline used to perform a large-
 
 The repository includes the datasets, prompts, Python and R scripts, KG, embeddings, and JSON outputs. 
 
-Data
-CSV
+# Data
+
+## CSV
 
 Contains:
 
 complete corpus
 corpus subsets
 sampled datasets
-Data
 
-Contains supplementary materials including:
-
-article counts
-corpus categorization
-manually curated definitions
-JSON
+## JSON
 
 Stores structured outputs generated during:
 
 category identification
 document categorization
 repeated experimental runs
-Embeddings
+
+## Embeddings
 
 Contains semantic embeddings used for downstream analyses.
