@@ -90,8 +90,11 @@ Downloads articles from the *PLoS Biology* and *PLoS Genetics*.
 **KG.R**<br>
 Creates the 500- and 3,000-sentence subsets, cleans and analyses the resulting knowledge graphs.
 
-**categorization_analysis.R**<br>
-Retrieves and analyses the LLM categorization outputs.
+**categorization_analysis_corpus.R**<br>
+Retrieves and analyses the LLM categorization outputs of the 3,000-sentences subset (the consensus runs) to compare the categories based on 404 and 2,474 KG.
+
+**categorization_analysis_subsets.R**<br>
+Retrieves and analyses the LLM categorization output of the whole corpus for the consensus run.
 
 **centroids_from_all_sentences.R**<br>
 Computes embedding centroids from all sentences and compares category subsets with each centroid.
