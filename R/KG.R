@@ -25,12 +25,20 @@ set.seed(145)
 HPC_ancest_500 <- filtered_clean |>
   slice_sample(n=500)|>
   select(sentence)
-
 #Add quotes and "," after each sentence 
 HPC_ancest_500$sentence <- paste0('"', HPC_ancest_500$sentence, '",')
-
 #Save in an CSV file
 write.csv(HPC_ancest_500,"Subset500.csv",row.names=F,quote=F)
+
+#Select 3000 randoms quotes
+set.seed(145)
+HPC_ancest_3000 <- filtered_clean |>
+  slice_sample(n=3000)|>
+  select(sentence)
+#Add quotes and "," after each sentence 
+HPC_ancest_3000$sentence <- paste0('"', HPC_ancest_3000$sentence, '",')
+#Save in an CSV file
+write.csv(HPC_ancest_3000,"Subset3000.csv",row.names=F,quote=F)
 
 ########################### Analyze the KG #####################################
 
@@ -122,18 +130,19 @@ rel_has_ancest <- function(graph) {
 
 # apply to your list of graphs
 node_matches <- sapply(graphs_filtered, node_has_ancest)
-rel_matches  <- sapply(graphs_filtered, rel_has_ancest)
+rel_matches <- sapply(graphs_filtered, rel_has_ancest)
 
 # counts
-in_nodes_only  <- sum(node_matches & !rel_matches)
-in_rels_only   <- sum(rel_matches & !node_matches)
-in_both        <- sum(node_matches & rel_matches)
+in_nodes_only <- sum(node_matches & !rel_matches)
+in_rels_only <- sum(rel_matches & !node_matches)
+in_both <- sum(node_matches & rel_matches)
 none <- sum(!node_matches & !rel_matches)
 
 list(
-  nodes_only       = in_nodes_only,
+  nodes_only = in_nodes_only,
   relationships_only = in_rels_only,
-  both             = in_both
+  both = in_both,
+  none = none
 )
 
 which(!node_matches & !rel_matches)
