@@ -7,21 +7,20 @@ This folder contains the data and scripts used to:
 
 ## Contents
 
-### CSV files
+## XLSX file
 
-**`Corpus_subset*.csv`**<br>
-Contains the complete corpus of **17,469 sentences**, split into six subsets.<br>
-The corpus was divided into multiple files because the full dataset was too large to upload as a single file.
+**`article_counts.xlsx`**<br>
+Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
 
-### Python scripts
+### TXT file
 
-**`plos_download_pdf.py`**<br>
-Downloads articles from *PLoS Biology* and *PLoS Genetics*.
-
-**`extract_sentences.py`**<br>
-Extracts sentences from downloaded PDF articles.
+**`explicit_definitions.txt`**<br>
+Explicit definitions of ANCESTRY identified in the corpus.
 
 ### R scripts
 
-**`filter_sentences.R`**<br>
-Loads the complete sentence corpus and filters it to retain only sentences containing *ancestr-*.
+**`explicit_definitions.R`**<br>
+Identifies explicit explicit definitions of ANCESTRY in the corpus.
+
+**`collocations.R`**<br>
+Computes collocations for occurrences of *ancestr-* within the corpus.
