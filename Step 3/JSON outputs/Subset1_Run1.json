@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Genetic Ancestry Analysis",
+    "definition": "This cluster involves the use of genetic data and algorithms to infer ancestry, often through methods like PCA and admixture mapping, to understand the genetic composition and historical migrations of populations.",
+    "reasoning": "Graphs such as 11, 80, and 496 show the application of PCA and other methods to analyze genetic data for ancestry inference, indicating a focus on genetic ancestry analysis."
+  },
+  {
+    "label": "Ancestry and Disease Association",
+    "definition": "This cluster explores the relationship between ancestry and disease susceptibility, often using GWAS and other genetic studies to identify loci associated with diseases in different ancestral groups.",
+    "reasoning": "Graphs like 50, 175, and 387 highlight studies that link ancestry with disease risk, using genetic data to identify associations between specific ancestries and health conditions."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines the genetic structure of populations, including the effects of admixture and the identification of distinct ancestral components within populations.",
+    "reasoning": "Graphs such as 261, 421, and 600 focus on the genetic structure of populations, highlighting the role of admixture and the identification of distinct ancestral components."
+  },
+  {
+    "label": "Ancestry and Evolutionary Processes",
+    "definition": "This cluster investigates the role of ancestry in evolutionary processes, including the study of ancestral alleles, recombination, and the impact of historical migrations on genetic diversity.",
+    "reasoning": "Graphs like 78, 127, and 403 discuss evolutionary processes such as recombination and the impact of ancestral alleles, indicating a focus on ancestry in evolutionary contexts."
+  },
+  {
+    "label": "Ancestry and Genetic Variation",
+    "definition": "This cluster focuses on the genetic variation within and between populations, often using SNPs and haplotypes to study the distribution of genetic traits across different ancestries.",
+    "reasoning": "Graphs such as 12, 27, and 98 highlight the use of SNPs and haplotypes to study genetic variation, emphasizing the role of ancestry in shaping genetic diversity."
+  },
+  {
+    "label": "Ancestry and Demographic History",
+    "definition": "This cluster explores the demographic history of populations, including the effects of historical migrations, population bottlenecks, and admixture events on current genetic diversity.",
+    "reasoning": "Graphs like 65, 148, and 396 discuss historical migrations and demographic events, indicating a focus on how these factors have shaped current genetic diversity."
+  }
+]

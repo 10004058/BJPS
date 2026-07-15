@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Ancestry Estimation and Analysis",
+    "definition": "This cluster involves processes and methods used to estimate and analyze ancestry, often using genetic data and simulations. It includes techniques like principal component analysis and model-based clustering to infer ancestry proportions and patterns.",
+    "reasoning": "Graphs such as 2401, 2410, 2556, and 2958 show processes and methods applied to estimate ancestry, often using genetic data and simulations, indicating a focus on ancestry estimation and analysis."
+  },
+  {
+    "label": "Ancestry and Health",
+    "definition": "This cluster explores the relationship between ancestry and health-related traits or conditions, such as disease risk, genetic predispositions, and phenotypic traits. It often involves genetic association studies and the impact of ancestry on health outcomes.",
+    "reasoning": "Graphs like 2403, 2407, 2505, and 2852 highlight associations between ancestry and health-related traits or conditions, indicating a focus on the impact of ancestry on health."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines the role of ancestry in shaping population structure, including the distribution of genetic diversity and the identification of population subgroups. It often involves the use of genetic markers and principal component analysis to study population stratification.",
+    "reasoning": "Graphs such as 2405, 2563, 2585, and 2734 show the use of genetic markers and principal component analysis to study population structure and stratification, indicating a focus on ancestry and population structure."
+  },
+  {
+    "label": "Ancestry and Evolutionary History",
+    "definition": "This cluster focuses on the role of ancestry in understanding evolutionary history, including the study of ancestral populations, gene flow, and introgression events. It often involves the use of phylogenetic and coalescent models to infer evolutionary relationships.",
+    "reasoning": "Graphs like 2406, 2674, 2722, and 2927 highlight the use of phylogenetic and coalescent models to study evolutionary history and gene flow, indicating a focus on ancestry and evolutionary history."
+  },
+  {
+    "label": "Ancestry and Genetic Diversity",
+    "definition": "This cluster explores the relationship between ancestry and genetic diversity, including the study of genetic variation, allele frequencies, and the impact of ancestry on genetic diversity within and between populations.",
+    "reasoning": "Graphs such as 2409, 2544, 2794, and 2853 show the study of genetic variation and allele frequencies in relation to ancestry, indicating a focus on ancestry and genetic diversity."
+  },
+  {
+    "label": "Ancestry and Cultural/Environmental Factors",
+    "definition": "This cluster examines the interplay between ancestry and cultural or environmental factors, including the influence of ancestry on cultural practices, environmental adaptations, and the interaction between genetic and non-genetic factors.",
+    "reasoning": "Graphs like 2402, 2699, 2922, and 2994 highlight the interaction between ancestry and cultural or environmental factors, indicating a focus on the interplay between genetic and non-genetic influences."
+  }
+]

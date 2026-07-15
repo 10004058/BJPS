@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Genetic Ancestry Analysis",
+    "definition": "This cluster involves the use of genetic tools and methods to infer, analyze, and compare genetic ancestry across different populations and individuals. It includes processes like admixture analysis, local ancestry inference, and the use of ancestry informative markers.",
+    "reasoning": "The graphs frequently mention tools and methods such as 'Admixture', 'Rfmix', 'Ancestrymap', and 'Principal Component Analysis', which are used to analyze genetic ancestry and admixture in various populations."
+  },
+  {
+    "label": "Ancestry and Disease Association",
+    "definition": "This cluster focuses on the relationship between genetic ancestry and disease susceptibility or risk. It includes studies that investigate how ancestry influences the prevalence of certain diseases or conditions.",
+    "reasoning": "Graphs like 808, 864, and 1168 show relationships between ancestry and diseases such as prostate cancer, ischemic stroke, and Alzheimer's disease, indicating a focus on how ancestry affects disease risk."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines the role of ancestry in shaping population structure and genetic diversity. It includes studies on population stratification, genetic variation, and the impact of historical migrations.",
+    "reasoning": "Graphs such as 800, 802, and 1185 discuss concepts like population genetic inference, ancestral population structure, and population substructure, highlighting the influence of ancestry on population genetics."
+  },
+  {
+    "label": "Ancestry and Evolutionary Processes",
+    "definition": "This cluster explores the role of ancestry in evolutionary processes, including natural selection, introgression, and adaptation. It involves the study of ancestral alleles and their impact on current genetic traits.",
+    "reasoning": "Graphs like 980, 982, and 1104 discuss processes such as selection against minor parent ancestry, autosomal introgression, and ancestral introgression, indicating a focus on evolutionary dynamics."
+  },
+  {
+    "label": "Ancestry and Social Constructs",
+    "definition": "This cluster addresses the intersection of genetic ancestry with social constructs such as race, ethnicity, and identity. It includes studies on self-reported ancestry, social classification, and the impact of ancestry on social perceptions.",
+    "reasoning": "Graphs like 1064, 1162, and 1191 discuss concepts like social factors, racial inequalities, and assortative mating, showing how ancestry interacts with social and cultural factors."
+  }
+]

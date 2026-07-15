@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Genetic Ancestry Analysis",
+    "definition": "This cluster involves the use of genetic data to estimate, compare, and analyze ancestry, often in the context of health, population studies, and genetic variation. It includes processes like genetic ancestry estimation, admixture analysis, and the use of ancestry-informative markers.",
+    "reasoning": "Graphs 1, 4, 6, 12, 20, 28, 29, 55, 65, 100, and 126 all involve processes or concepts related to the analysis and estimation of genetic ancestry, often using specific markers or software tools."
+  },
+  {
+    "label": "Ancestry and Health",
+    "definition": "This cluster explores the relationship between ancestry and health outcomes, including disease susceptibility, genetic risk factors, and the influence of ancestry on health conditions. It often involves studies comparing different ancestry groups.",
+    "reasoning": "Graphs 6, 13, 25, 56, 58, 91, and 130 highlight the connection between ancestry and health, focusing on how genetic ancestry can influence disease risk and health outcomes."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines the role of ancestry in defining population structure, including the distribution of genetic variation across populations and the impact of historical migrations and admixture events.",
+    "reasoning": "Graphs 5, 11, 16, 30, 32, 36, 60, 67, and 121 discuss the distribution of ancestry within and between populations, often in the context of historical or geographical factors."
+  },
+  {
+    "label": "Ancestry and Evolutionary Biology",
+    "definition": "This cluster focuses on the role of ancestry in evolutionary biology, including the study of ancestral sequences, evolutionary relationships, and the impact of ancestry on genetic diversity and adaptation.",
+    "reasoning": "Graphs 9, 44, 49, 71, 102, and 127 involve concepts related to evolutionary biology, such as ancestral sequences, introgression, and evolutionary relationships between species."
+  },
+  {
+    "label": "Ancestry and Genetic Variation",
+    "definition": "This cluster involves the study of genetic variation in the context of ancestry, including the identification of ancestry-informative markers, the impact of ancestry on genetic diversity, and the use of genetic data to infer ancestry.",
+    "reasoning": "Graphs 3, 18, 37, 48, 68, 110, and 122 focus on genetic variation and its relationship to ancestry, often involving the identification of specific genetic markers or alleles."
+  },
+  {
+    "label": "Ancestry and Cultural Identity",
+    "definition": "This cluster explores the intersection of ancestry and cultural identity, including the self-identification of individuals based on ancestry and the influence of ancestry on cultural and ethnic groups.",
+    "reasoning": "Graphs 23, 24, 69, and 111 discuss the relationship between ancestry and cultural identity, often involving self-identification or the classification of individuals based on ancestry."
+  }
+]

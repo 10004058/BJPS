@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Ancestry and Disease Association",
+    "definition": "This cluster explores the relationship between ancestry and disease prevalence or risk, often through genetic markers or alleles associated with specific ancestries.",
+    "reasoning": "Graphs such as 1802, 1805, 1902, and 2208 show relationships between ancestry and diseases like MS, cancer, and others, indicating a focus on how genetic ancestry influences disease risk."
+  },
+  {
+    "label": "Ancestry and Genetic Variation",
+    "definition": "This cluster examines how ancestry influences genetic variation, including allele frequencies, haplotypes, and genetic diversity across populations.",
+    "reasoning": "Graphs like 1803, 1834, and 2202 highlight the impact of ancestry on genetic variation, with nodes and relationships focusing on allele frequencies, haplotypes, and genetic diversity."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster investigates the role of ancestry in shaping population structure, including admixture, population splits, and genetic drift.",
+    "reasoning": "Graphs such as 1809, 1900, and 2278 show how ancestry contributes to population structure, with nodes and relationships detailing admixture events, population splits, and genetic drift."
+  },
+  {
+    "label": "Ancestry and Genetic Ancestry Estimation",
+    "definition": "This cluster focuses on methods and tools used to estimate genetic ancestry, often through computational models and algorithms.",
+    "reasoning": "Graphs like 1850, 1960, and 2310 involve nodes and relationships related to software and methods for estimating genetic ancestry, indicating a focus on ancestry estimation techniques."
+  },
+  {
+    "label": "Ancestry and Evolutionary Processes",
+    "definition": "This cluster explores how ancestry is involved in evolutionary processes, including natural selection, introgression, and adaptation.",
+    "reasoning": "Graphs such as 1890, 2201, and 2365 highlight the role of ancestry in evolutionary processes, with nodes and relationships discussing natural selection, introgression, and adaptation."
+  },
+  {
+    "label": "Ancestry and Social/Cultural Identity",
+    "definition": "This cluster examines the intersection of ancestry with social and cultural identity, including self-perception and historical migrations.",
+    "reasoning": "Graphs like 1880, 2117, and 2289 show relationships between ancestry and social or cultural identity, with nodes discussing self-perception, historical migrations, and cultural identity."
+  }
+]
