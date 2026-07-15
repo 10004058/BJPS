@@ -6,11 +6,49 @@ This repository contains the datasets, prompts, scripts, and outputs used to per
 
 The analysis pipeline consists of the following steps:
 
-1. Download the corpus and extract sentences containing the term ancest-.
-2. Look for explicit definitions and compute collocations.
-3. Create the subsets for the KG extraction, run an analysis on the HPC to produce the KG, clean and filter the KG, and use the KG to obtain definitional categories.
-4. Categorise the 3,000-sentences subset and the corpus and analyse the categorization outputs
-5. Reformate the corpus categorization output
-6. Generates the embeddings, compute the centroids, compare the embeddings of a category subset to the above-computed centroids, and test for statistical significance in the cosine similarities computed between a category subset and the competing centroids
-7. Perform a PERMANOVA
+### Step 1
+
+Download the corpus
+
+Extract sentences containing the term ancest-.
+
+### Step 2
+
+Look for explicit definitions
+
+Compute collocations
+
+### Step 3 
+
+Create the subsets for the KG extraction
+
+Run an analysis on the HPC to produce the KG
+
+Clean and filter the KG
+
+Use the KG to obtain definitional categories
+
+### Step 4
+
+Categorise the 3,000-sentences subset and the corpus
+
+Analyse the categorization outputs
+
+### Step 5
+
+Reformate the corpus categorization output
+
+### Step 6
+
+Generates the embeddings
+
+Compute the centroids
+
+Compare the embeddings of a category subset to the above-computed centroids
+
+Test for statistical significance in the cosine similarities computed between a category subset and the competing centroids
+
+### Step 7
+
+Perform a PERMANOVA
 
