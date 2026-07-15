@@ -11,6 +11,8 @@ This folder contains the data and scripts used to:
 
 ### CSV files
 
+*Note: The file `embeddings_corpus_occurrences.csv`, which contains the embeddings for the entire corpus, could not be uploaded as it was too large.*
+
 **`embeddings_*.csv`**<br>
 The embeddings for the validated sentences, split by category.
 
