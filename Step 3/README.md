@@ -20,6 +20,23 @@ As above, with the exception that the file has been divided into subsets, as it 
 **`*KG_raw.txt`**<br>
 The KG obtained through the HPC analysis, before cleaning and filtering.
 
+**`*KG_clean.txt`**<br>
+The cleaned and filtered KG, ready to be used with the category identification prompt.
+
+**`*KG_clean_subset*.txt`**<br>
+As above, with the exception that the file has been divided into subsets, as it would otherwise have been too large to analyse.
+
+**`*KG_raw.txt`**<br>
+The KG obtained through the HPC analysis, before cleaning and filtering.
+
+### JSON files
+
+**`Subset\*_Run\*.json`**<br>
+Category identification outputs (3 runs) generated from the 2,474 KG containing *ancest-*.
+
+**`Run\*.json`**<br>
+Category identification outputs (3runs) generated from the 404 KG containing *ancest-*.
+
 ### CSV files
 
 **`Subset3000.csv`**<br>
