@@ -21,6 +21,11 @@ The corpus was divided into multiple files because the full dataset was too larg
 **`Subset3000.csv`**<br>
 Random subset of 3000 sentences used for KG extraction and categories identification.
 
+### XLSX files
+
+**`categorization_over_time.xlsx`**<br>
+Relative distribution of ancestry-related definitional categories over time in PLOS Genetics and PLOS Biology. 
+
 ### JSON files
 
 **`Run*_*.json`**<br>
