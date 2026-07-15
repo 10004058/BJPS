@@ -31,10 +31,10 @@ The KG obtained through the HPC analysis, before cleaning and filtering.
 
 ### JSON files
 
-**`Subset\*_Run\*.json`**<br>
+**`Subset*_Run*.json`**<br>
 Category identification outputs (3 runs) generated from the 2,474 KG containing *ancest-*.
 
-**`Run\*.json`**<br>
+**`Run*.json`**<br>
 Category identification outputs (3runs) generated from the 404 KG containing *ancest-*.
 
 ### CSV files
