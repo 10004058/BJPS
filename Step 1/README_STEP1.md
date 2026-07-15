@@ -15,11 +15,11 @@ The corpus was divided into multiple files because the full dataset was too larg
 
 ### Python scripts
 
-**`extract_sentences.py`**<br>
-Extracts sentences from downloaded PDF articles.
-
 **`plos_download_pdf.py`**<br>
 Downloads articles from *PLoS Biology* and *PLoS Genetics*.
+
+**`extract_sentences.py`**<br>
+Extracts sentences from downloaded PDF articles.
 
 ### R scripts
 
