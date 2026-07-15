@@ -26,6 +26,9 @@ Random subset of 3000 sentences used for KG extraction and categories identifica
 **`Run*_*.json`**<br>
 LLM categorization outputs (3 runs) for the complete corpus, split into 6 subsets.
 
+**`Run_based_on_*KG.json`**<br>
+LLM categorization outputs (consensus run) for the 3,000-sentences subset.
+
 ### R scripts
 
 **`categorization_analysis_corpus.R`**<br>
