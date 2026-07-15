@@ -4,9 +4,9 @@ This repository contains the datasets, prompts, scripts, and outputs used to per
 
 ## Workflow
 
-The analysis pipeline consists of the following steps:
-
 *Note: Each folder contains a corresponding README file detailing its contents.*
+
+The analysis pipeline consists of the following steps:
 
 ### Step 1
 
