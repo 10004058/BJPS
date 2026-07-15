@@ -10,7 +10,8 @@ This folder contains the data and scripts used to:
 ### CSV files
 
 **`Corpus_subset*.csv`**<br>
-Contains the complete corpus of **17,469 sentences**, split into six subsets. The corpus was divided into multiple files because the full dataset was too large to upload as a single file.
+Contains the complete corpus of **17,469 sentences**, split into six subsets.<br>
+The corpus was divided into multiple files because the full dataset was too large to upload as a single file.
 
 ### Python scripts
 
