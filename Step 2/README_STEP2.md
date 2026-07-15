@@ -7,7 +7,7 @@ This folder contains the data and scripts used to:
 
 ## Contents
 
-## XLSX file
+### XLSX file
 
 **`article_counts.xlsx`**<br>
 Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
