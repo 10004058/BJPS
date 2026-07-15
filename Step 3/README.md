@@ -1,4 +1,4 @@
-# Data
+# Step 3
 
 This folder contains the data and scripts used to:
 
