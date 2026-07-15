@@ -72,7 +72,7 @@ Calls kg-generation.py on the HPC.
 
 ### Prompt
 
-**CategoriesIdentificationPrompt.ipynb**<br>
+**`CategoriesIdentificationPrompt.ipynb`**<br>
 Identifies definitional categories from the KG.
 
 ### R scripts
