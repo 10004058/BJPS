@@ -1,1 +1,88 @@
+# Software Environment
 
+This project was developed using the following software environment.
+
+## R
+
+| Component | Version |
+|----------|---------|
+| R | **4.5.1** (2025-06-13) |
+| Platform | x86_64-w64-mingw32/x64 |
+| Operating System | Windows 10 x64 (Build 17763) |
+| LAPACK | 3.12.1 |
+| Locale | French (Switzerland) |
+| Time Zone | Europe/Zurich |
+
+### Base packages
+
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+### Additional packages
+
+- compiler 4.5.1
+- tools 4.5.1
+- rstudioapi 0.17.1
+
+---
+
+## High Performance Computing (HPC)
+
+### Environment Modules
+
+```bash
+module load GCCcore/12.3.0
+module load Python/3.11.3
+```
+
+---
+
+## Remote Access
+
+### PuTTY
+
+| Component | Version |
+|----------|---------|
+| Version | 0.83 |
+| Architecture | 64-bit |
+| Compiler | Clang 14.0.6 (Visual Studio 2022 compatible) |
+
+---
+
+## File Transfer
+
+### FileZilla Client
+
+| Component | Version |
+|----------|---------|
+| Version | 3.69.5 |
+| wxWidgets | 3.2.5 |
+| SQLite | 3.39.4 |
+| GnuTLS | 3.8.10 |
+
+Running on:
+
+- Windows 10 x64 (Build 17763)
+
+---
+
+## Large Language Models
+
+The following language models were used during the project:
+
+| Purpose | Model |
+|---------|-------|
+| Categories Identification and Categorization model | `gpt-4o` |
+| Embedding model | `text-embedding-3-small` |
+| KG Generation model | `mistral:7b-instruct` (Ollama) |
+
+---
+
+## Operating System
+
+- Windows 10 x64 (Build 17763)
