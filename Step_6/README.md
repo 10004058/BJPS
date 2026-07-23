@@ -27,7 +27,7 @@ The validated sentences, split by category.
 ### Prompt
 
 **`EmbeddingsPrompt.ipynb`**<br>
-Generates sentence embeddings.
+Generates sentence embeddings.<br>*Requires API access and LLM model text-embedding-3-small*
 
 ### Scripts
 
