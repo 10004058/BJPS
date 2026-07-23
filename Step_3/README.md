@@ -30,19 +30,19 @@ Random subset of 500 sentences used for KG extraction and categories identificat
 ### Prompt
 
 **`CategoriesIdentificationPrompt.ipynb`**<br>
-Identifies definitional categories from the KG.<br>*Requires LLM model*
+Identifies definitional categories from the KG.<br>*Requires API access*
 
 ### Scripts 
 
 #### Bash
 
 **`run.sh`**<br>
-Calls kg-generation.py on the HPC.
+Calls kg-generation.py on the HPC.<br>*Requires HPC resources*
 
 #### Python
 
 **`kg-generation.py`**<br>
-Generates knowledge graphs from a sentences subset.
+Generates knowledge graphs from a sentences subset.<br>*Requires HPC resources*
 
 #### R
 
