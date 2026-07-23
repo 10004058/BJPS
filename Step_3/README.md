@@ -30,7 +30,7 @@ Random subset of 500 sentences used for KG extraction and categories identificat
 ### Prompt
 
 **`CategoriesIdentificationPrompt.ipynb`**<br>
-Identifies definitional categories from the KG.<br>*Requires API access*
+Identifies definitional categories from the KG.<br>*Requires API access and LLM model gpt-4o*
 
 ### Scripts 
 
