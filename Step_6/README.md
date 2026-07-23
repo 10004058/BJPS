@@ -46,7 +46,8 @@ Computes the category centroids using all sentence embeddings, creates the categ
 
 #### CSV files
 
-*Note: The file `embeddings_corpus_occurrences.csv`, which contains the embeddings for the entire corpus, could not be uploaded as it was too large.*
+*Note: The file `embeddings_corpus_occurrences.csv`, which contains the embeddings for the entire corpus, could not be uploaded as it was too large.*<br>
+To obtain this file, use the data "Corpus.csv" (cf. Step_1) with **`EmbeddingsPrompt.ipynb`**.
 
 **`embeddings_*.csv`**<br>
 The embeddings for the validated sentences, split by category.
