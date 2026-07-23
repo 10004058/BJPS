@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Ancestry in Genetic Studies",
+    "definition": "This cluster involves the use of ancestry information in genetic studies, particularly in genome-wide association studies (GWAS) and other genetic analyses. It includes the adjustment for ancestry in statistical models and the study of genetic variants across different ancestries.",
+    "reasoning": "Graphs such as 1201, 1213, 1255, and 1334 show relationships between ancestry and genetic studies, highlighting the role of ancestry in adjusting and analyzing genetic data."
+  },
+  {
+    "label": "Ancestry and Disease Risk",
+    "definition": "This cluster focuses on the relationship between ancestry and disease risk, including how genetic ancestry can influence susceptibility to various diseases and conditions.",
+    "reasoning": "Graphs like 1222, 1252, and 1262 illustrate the association between ancestry and disease risk, showing how different ancestries are linked to specific health outcomes."
+  },
+  {
+    "label": "Ancestry and Evolutionary Processes",
+    "definition": "This cluster explores the role of ancestry in evolutionary processes, including introgression, hybridization, and the impact of ancestral genetic variation on current populations.",
+    "reasoning": "Graphs such as 1236, 1253, and 1272 demonstrate the involvement of ancestry in evolutionary processes, highlighting concepts like introgression and hybridization."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines how ancestry contributes to the structure and differentiation of populations, including the identification of ancestral populations and the study of population dynamics.",
+    "reasoning": "Graphs like 1240, 1263, and 1295 show how ancestry is used to understand population structure and dynamics, with relationships indicating the differentiation and composition of populations."
+  },
+  {
+    "label": "Ancestry and Genetic Variation",
+    "definition": "This cluster focuses on the role of ancestry in genetic variation, including the study of ancestral alleles, haplotypes, and the impact of ancestry on genetic diversity.",
+    "reasoning": "Graphs such as 1250, 1275, and 1305 highlight the relationship between ancestry and genetic variation, showing how ancestral genetic material influences current genetic diversity."
+  },
+  {
+    "label": "Ancestry and Methodological Approaches",
+    "definition": "This cluster involves the development and application of methodological approaches to study ancestry, including statistical models, software tools, and analytical techniques.",
+    "reasoning": "Graphs like 1282, 1296, and 1313 demonstrate the use of various methods and tools to analyze ancestry, indicating the importance of methodological approaches in ancestry research."
+  }
+]
