@@ -7,13 +7,17 @@ This folder contains the data and scripts used to:
 
 ## Contents
 
-### Outputs - CSV files
+### Outputs 
+
+#### CSV files
 
 **`Corpus_subset*.csv`**<br>
 Contains the complete corpus of **17,469 sentences**, split into six subsets.<br>
 The corpus was divided into multiple files because the full dataset was too large to upload as a single file.
 
-### Scripts - Python 
+### Scripts
+
+#### Python 
 
 **`plos_download_pdf.py`**<br>
 Downloads articles from *PLoS Biology* and *PLoS Genetics*.
@@ -21,7 +25,7 @@ Downloads articles from *PLoS Biology* and *PLoS Genetics*.
 **`extract_sentences.py`**<br>
 Extracts sentences from downloaded PDF articles.
 
-### Scripts - R 
+#### R 
 
 **`filter_sentences.R`**<br>
 Loads the complete sentence corpus and filters it to retain only sentences containing *ancestr-*.
