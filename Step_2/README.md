@@ -7,17 +7,21 @@ This folder contains the data and scripts used to:
 
 ## Contents
 
-### XLSX file
+### Outputs 
+
+#### XLSX file
 
 **`article_counts.xlsx`**<br>
 Corpus statistics for the concepts ANCESTRY, RACE, and ETHNICITY.
 
-### TXT file
+#### TXT file
 
 **`explicit_definitions.txt`**<br>
 Explicit definitions of ANCESTRY identified in the corpus.
 
-### R scripts
+### Scripts
+
+#### R
 
 **`explicit_definitions.R`**<br>
 Identifies explicit explicit definitions of ANCESTRY in the corpus.
