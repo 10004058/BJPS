@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Ancestry Estimation and Analysis",
+    "definition": "This cluster involves processes and methods used to estimate and analyze ancestry, often using genetic data and simulations. It includes techniques like PCA, admixture mapping, and local ancestry inference.",
+    "reasoning": "Graphs such as 2401, 2410, 2545, and 2958 show processes and methods applied to estimate ancestry, often using genetic data and simulations."
+  },
+  {
+    "label": "Ancestry and Health",
+    "definition": "This cluster explores the relationship between ancestry and health-related traits or conditions, including disease risk and genetic predispositions.",
+    "reasoning": "Graphs like 2403, 2407, 2505, and 2852 demonstrate associations between ancestry and health-related traits or conditions."
+  },
+  {
+    "label": "Ancestry and Population Structure",
+    "definition": "This cluster examines how ancestry contributes to population structure and genetic diversity, often involving studies of different ethnic groups and their genetic backgrounds.",
+    "reasoning": "Graphs such as 2405, 2451, 2592, and 2647 highlight the role of ancestry in shaping population structure and genetic diversity."
+  },
+  {
+    "label": "Ancestry and Genetic Variation",
+    "definition": "This cluster focuses on the impact of ancestry on genetic variation, including allele frequencies, haplotypes, and genetic markers.",
+    "reasoning": "Graphs like 2409, 2501, 2612, and 2946 illustrate how ancestry influences genetic variation and allele frequencies."
+  },
+  {
+    "label": "Ancestry and Evolutionary History",
+    "definition": "This cluster investigates the role of ancestry in evolutionary history, including the study of ancestral populations, gene flow, and introgression.",
+    "reasoning": "Graphs such as 2480, 2674, 2743, and 2909 explore the role of ancestry in evolutionary history and gene flow."
+  },
+  {
+    "label": "Ancestry and Cultural/Environmental Factors",
+    "definition": "This cluster examines the interplay between ancestry and cultural or environmental factors, including how these factors influence genetic traits.",
+    "reasoning": "Graphs like 2406, 2699, and 2994 show the relationship between ancestry and cultural or environmental factors."
+  },
+  {
+    "label": "Ancestry and Methodological Approaches",
+    "definition": "This cluster includes the development and application of methodological approaches for studying ancestry, such as statistical models and computational tools.",
+    "reasoning": "Graphs such as 2404, 2544, 2960, and 2996 highlight the use of methodological approaches in ancestry studies."
+  }
+]
