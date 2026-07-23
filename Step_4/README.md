@@ -43,7 +43,7 @@ LLM categorization outputs (3 runs) for the complete corpus, split into 6 subset
 **`Run_based_on_*KG.json`**<br>
 LLM categorization outputs (consensus run) for the 3,000-sentences subset.
 
-### XLSX files
+#### XLSX files
 
 **`categorization_over_time.xlsx`**<br>
 Relative distribution of ancestry-related definitional categories over time in PLOS Genetics and PLOS Biology. 
