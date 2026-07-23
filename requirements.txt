@@ -38,11 +38,7 @@ This project was developed using the following software environment.
 GCCcore/12.3.0
 Python/3.11.3
 
----
-
-## Remote Access
-
-### PuTTY
+### Remote access with PuTTY
 
 | Component | Version |
 |----------|---------|
@@ -50,11 +46,7 @@ Python/3.11.3
 | Architecture | 64-bit |
 | Compiler | Clang 14.0.6 (Visual Studio 2022 compatible) |
 
----
-
-## File Transfer
-
-### FileZilla Client
+### File transfer with FileZilla Client
 
 | Component | Version |
 |----------|---------|
@@ -69,7 +61,7 @@ Running on:
 
 ---
 
-## Large Language Models
+## LLM
 
 The following language models were used during the project:
 
