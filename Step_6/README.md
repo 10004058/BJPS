@@ -51,7 +51,7 @@ Computes the category centroids using all sentence embeddings, creates the categ
 To obtain this file:
 
 * Combine the data **`Corpus_subset*.csv`** (cf. Step_1/outputs/) to create a CSV file named **`Corpus.csv`**
-* Use **`Corpus.csv`** with the **`EmbeddingsPrompt.ipynb`**
+* Run **`EmbeddingsPrompt.ipynb`** with **`Corpus.csv`** as the input file 
 
 **`embeddings_*.csv`**<br>
 The embeddings for the validated sentences, split by category.
