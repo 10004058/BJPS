@@ -21,7 +21,7 @@ Random subset of 3000 sentences used for KG extraction and categories identifica
 ### Prompt
 
 **`CategorizationPrompt.ipynb`**<br>
-Categorizes sentences into the identified definitional categories.
+Categorizes sentences into the identified definitional categories.<br>*Requires API access and LLM model gpt-4o*
 
 ### Scripts
 
