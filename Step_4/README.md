@@ -7,12 +7,9 @@ This folder contains the data and scripts used to:
 
 ## Contents
 
-### Prompt
+### Data
 
-**`CategorizationPrompt.ipynb`**<br>
-Categorizes sentences into the identified definitional categories.
-
-### CSV files
+#### CSV files
 
 **`Corpus_subset*.csv`**<br>
 Contains the complete corpus of **17,469 sentences**, split into six subsets.<br>
@@ -21,12 +18,24 @@ The corpus was divided into multiple files because the full dataset was too larg
 **`Subset3000.csv`**<br>
 Random subset of 3000 sentences used for KG extraction and categories identification.
 
-### XLSX files
+### Prompt
 
-**`categorization_over_time.xlsx`**<br>
-Relative distribution of ancestry-related definitional categories over time in PLOS Genetics and PLOS Biology. 
+**`CategorizationPrompt.ipynb`**<br>
+Categorizes sentences into the identified definitional categories.
 
-### JSON files
+### Scripts
+
+#### R 
+
+**`categorization_analysis_corpus.R`**<br>
+Retrieves and analyses the LLM categorization outputs of the 3,000-sentences subset (the consensus runs) to compare the categories based on 404 and 2,474 KG.
+
+**`categorization_analysis_subsets.R`**<br>
+Retrieves and analyses the LLM categorization output of the whole corpus for the consensus run.
+
+### Outputs
+
+#### JSON files
 
 **`Run*_*.json`**<br>
 LLM categorization outputs (3 runs) for the complete corpus, split into 6 subsets.
@@ -34,10 +43,7 @@ LLM categorization outputs (3 runs) for the complete corpus, split into 6 subset
 **`Run_based_on_*KG.json`**<br>
 LLM categorization outputs (consensus run) for the 3,000-sentences subset.
 
-### R scripts
+### XLSX files
 
-**`categorization_analysis_corpus.R`**<br>
-Retrieves and analyses the LLM categorization outputs of the 3,000-sentences subset (the consensus runs) to compare the categories based on 404 and 2,474 KG.
-
-**`categorization_analysis_subsets.R`**<br>
-Retrieves and analyses the LLM categorization output of the whole corpus for the consensus run.
+**`categorization_over_time.xlsx`**<br>
+Relative distribution of ancestry-related definitional categories over time in PLOS Genetics and PLOS Biology. 
