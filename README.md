@@ -1,4 +1,4 @@
-# BJPS
+# README
 
 This repository contains the datasets, prompts, scripts, and outputs used to perform a large-scale concept analysis of **ANCESTRY** in the genomics literature. The analysis combines corpus creation, collocation analysis, knowledge graph (KG) extraction, Large Language Model (LLM)-based semantic categorization, embedding analysis, and statistical testing on a corpus of **17,469 sentences** extracted from **1,373** articles published in *PLoS Genetics* and *PLoS Biology* (2003–2025).
 
